@@ -1,4 +1,3 @@
-/* App.css */
 html, body, #root {
   height: 100%;
   margin: 0;
@@ -18,8 +17,8 @@ html, body, #root {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw; /* Full viewport width */
-  height: 60px; /* Fixed header height */
+  width: 100vw; 
+  height: 60px;
   background-color: #333;
   color: white;
   display: flex;
@@ -27,7 +26,7 @@ html, body, #root {
   justify-content: space-between;
   padding: 0 1rem;
   box-sizing: border-box;
-  z-index: 1000; /* Keeps header above other content */
+  z-index: 1000;
 }
 
 /* Fixed Footer */
@@ -35,30 +34,30 @@ html, body, #root {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100vw; /* Full viewport width */
-  height: 60px; /* Fixed footer height */
+  width: 100vw;
+  height: 60px;
   background-color: #333;
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   z-index: 1000; /* Keeps footer above other content */
 }
 
 /* Main Content */
 main {
   flex: 1;
-  padding-top: 60px; /* Offset by header height */
-  padding-bottom: 60px; /* Offset by footer height */
+  padding-top: 60px;
+  padding-bottom: 60px;
   padding-left: 2rem;
   padding-right: 2rem;
-  overflow-y: auto; /* Enable scrolling if content overflows */
+  overflow-y: auto;
 }
 
 /* Navigation Styles */
 .nav {
   display: flex;
-  gap: 1rem; /* Reduce gap if necessary */
+  gap: 1rem;
 }
 
 .nav a {
@@ -66,7 +65,7 @@ main {
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
-  padding: 0.5rem; /* Add padding around links for click area */
+  padding: 0.5rem; /
 }
 
 .nav a:hover {
